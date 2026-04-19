@@ -179,10 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initFilePreview();
     initForms();
     
-    // Modal backdrop close
-    document.getElementById('successModal')?.addEventListener('click', e => {
-        if (e.target.classList.contains('modal')) {
-            e.target.classList.remove('active');
+  
         }
     });
 });
