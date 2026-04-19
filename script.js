@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     displayReviews();
 });
 
-document.getElementById('closeModal')?.addEventListener('click', () => {
+document.getElementById('projectform')?.addEventListener('submit',funtion(e){
     document.getElementById('successModal').classList.remove('active');
 });
 
